@@ -100,9 +100,19 @@ module.exports = {
         inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.05)',
       },
       fontFamily: {
-        sans: ['ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
-        serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
-        mono: ['ui-monospace', 'Menlo', 'Consolas', 'monospace'],
+        sans: ['Montserrat', 'Roboto'],
+        alternative: ['Montserrat Alternates', 'Roboto'],
+      },
+      colors: {
+        dp: {
+          'background-gray': '#edf1fc',
+          'font-dark-gray': '#2f3032',
+          'blue-500': '#0700F6',
+        },
+      },
+      backgroundImage: {
+        heroMain:
+        'linear-gradient(180deg, #040094 0%, #201AF7 38.54%, #80DBE1 85.42%, #FFFFFF 100%)',
       },
       fontSize: {
         0: '0',
