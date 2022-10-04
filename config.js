@@ -38,8 +38,12 @@ module.exports = {
       text: 'Har du så spørgsmål eller mangler du svar? Så kontakt os på',
       email: 'mailto:kunderservice@dreamplan.io'
     },
+    footer: {
+      text: 'Ønsker du ikke længere at modtage emails fra os?',
+    },
     company: {
-      name: 'Dreamplan.io'
+      name: 'Dreamplan.io',
+      address: 'http://maps.google.com/?q=1200 Applebys Pl. 7, 1411 København DK'
     }
   }
 }
