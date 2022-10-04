@@ -8,78 +8,49 @@ bodyClass: bg-gray-200
     <table class="w-full font-alternative">
       <tr>
         <td align="center" class="bg-dp-background-gray py-6">
-          <table class="w-[600px] sm:w-full bg-red-500">
-            <component src="src/components/header.html"> </component>
-            <tr>
-              <td class="text-center py-5 sm:pb-3">
-                <h1 class="font-extrabold text-dp-font-dark-gray text-[32px]">
-                  Login til Dreamplan
-                </h1>
-              </td>
-            </tr>
+          <table class="w-[600px] sm:w-full bg-white">
+            <component src="src/components/hero.html"> </component>
+            <component src="src/components/title.html"> </component>
+            <component src="src/components/body.html"> </component>
+            
             <tr>
               <td class="text-center px-8 xs:px-3">
                 <p class="text-dp-font-dark-gray text-sm">
-                  Du har modtaget denne mail, fordi du har bedt om at logge ind
-                  på din Dreamplan konto.
+                  Du kan altid bede om et  
+                  <a class="text-dp-blue-500" href="https://app.dreamplan.io/" target="_blank">
+                    nyt login link her:
+                  </a>
                 </p>
               </td>
-            </tr>
-            <tr>
-              <td class="text-center px-8 xs:px-3">
-                <p class="text-dp-font-dark-gray text-sm">
-                  Klik på login knappen nedefor for at logge ind på din konto.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="text-center px-8 xs:px-3">
-                <p class="text-dp-font-dark-gray text-sm">
-                  Hvis du ikke har bedt om at logge ind på din konto, så kan du
-                  bare ignorere denne mail.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="text-center px-8 xs:px-3">
-                <p class="text-dp-font-dark-gray text-sm">
-                  Af sikkerhedsmæssige årsager, vil dette login link udløbe om 3
-                  minutter. Derudover kan det kun anvendes en gang.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="text-center px-8 xs:px-3">
-                <p class="text-dp-font-dark-gray text-sm">
-                  Du kan altid bede om et nyt login link her:
-                  https://dreamplan.dk/login
-                </p>
-              </td>
-            </tr>
+            </tr> 
+
+
             <tr>
               <td class="pt-5 px-8 xs:px-3 text-center">
                 <a
-                  href="@{{ .ConfirmationURL }}"
+                  href="https://app.dreamplan.io/login"
                   class="inline-block py-4 px-8 text-sm leading-none [text-decoration:none] text-white font-semibold rounded-full bg-dp-blue-500 hover:bg-blue-600"
                 >
                   <span>Login</span>
                 </a>
               </td>
             </tr>
-            <tr>
+            <component src="src/components/contactEmail.html"> </component>
+
+            <!-- <tr>
               <td class="text-center pt-16 px-8 xs:px-3">
                 <p class="text-dp-font-dark-gray font-semibold">
-                  Er du i tvivl&#63;
+                  Er du i tvivl?
                 </p>
               </td>
             </tr>
             <tr>
               <td class="text-center px-8 xs:px-3">
                 <p class="text-dp-font-dark-gray mt-0 mb-8 text-xs font-light">
-                  Har du så spørgsmål eller mangler du svar? Så kontakt os på kunderservice@dreamplan.io
+                  Har du så spørgsmål eller mangler du svar? Så kontakt os på kunderservice@dreamplan.io. 
                 </p>
               </td>
-            </tr>
+            </tr> -->
 
             <tr>
               <td align="center" class="sm:px-8 xs:px-3">
