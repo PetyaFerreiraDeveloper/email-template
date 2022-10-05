@@ -105,8 +105,8 @@ module.exports = {
       },
       colors: {
         dp: {
-          'background-gray': '#edf1fc',
-          'font-dark-gray': '#2f3032',
+          'grayscale-200': '#edf1fc',
+          'grayscale-800': '#2f3032',
           'blue-500': '#0700F6',
         },
       },
