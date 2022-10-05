@@ -1,22 +1,29 @@
-<table class="w-[600px] bg-dp-grayscale-800 py-5 text-white text-sm">
-  <tr align="center">
-    <td class="my-3">
-      <img class="w-8" src="images/linkedin.png" alt="linkedin icon" />
-      <img class="w-8" src="images/facebook.png" alt="facebook icon" />
-    </td>
-  </tr>
-  <tr>
-    <td class="text-center">
-      {{footer.text}}
-      <a class="text-blue-500 no-underline" href="">Unsubscribe</a>
-    </td>
-  </tr>
-  <tr>
-    <td class="text-center">
-      {{company.name}}
-      <a class="text-blue-500 no-underline" href="{{company.address}}" target="_blank"
-        >Applebys Pl. 7, 1411 København, Denmark</a
-      >
-    </td>
-  </tr>
-</table>
+<tr >
+  <td class="w-[600px] bg-dp-grayscale-800 text-white text-sm py-5 px-8 xs:px-3">
+    <div align="center" >
+        <img
+          class="xs:w-8 w-10"
+          src="images/linkedin.png"
+          alt="linkedin icon"
+        />
+        <img
+          class="xs:w-8 w-10"
+          src="images/facebook.png"
+          alt="facebook icon"
+        />
+    </div>
+    <div class="text-center">
+        <span>{{footer.text}}</span>
+        <a class="text-blue-500 no-underline" href="">Unsubscribe</a>
+    </div>
+    <div class="text-center">
+        <span>{{company.name}}</span>
+        <a
+          class="text-blue-500 no-underline"
+          href="{{company.address}}"
+          target="_blank"
+          >Applebys Pl. 7, 1411 København, Denmark</a
+        >
+    </div>
+  </td>
+</tr>
