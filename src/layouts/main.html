@@ -45,7 +45,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <if condition="page.title">
-      <title>{{{ page.title }}}</title>
+      <title>{{ page.title }}</title>
     </if>
     <if condition="page.css">
       <style>
@@ -55,7 +55,7 @@
     <block name="head"></block>
   </head>
   <body
-    class="m-0 p-0 w-full [word-break:break-word] [-webkit-font-smoothing:antialiased] bg-dp-grayscale-200"
+    class="m-0 p-0 w-full [word-break:break-word] [-webkit-font-smoothing:antialiased] bg-dp-grayscale-200 font-alternative"
   >
     <if condition="page.preheader">
       <div class="hidden">
