@@ -8,6 +8,7 @@
 | the fastest build time, since most transformations are disabled.
 |
 */
+const currentYear = new Date().getFullYear()
 
 module.exports = {
   build: {
@@ -23,8 +24,9 @@ module.exports = {
     },
   },
   locals: {
+    year: currentYear,
     heroImg: {
-      src: 'images/backImage.jpeg',
+      src: 'https://www.dreamplan.io/images/backImage.jpeg',
       alt: 'Logo, Hero and blue gradient background'
     },
     title: {

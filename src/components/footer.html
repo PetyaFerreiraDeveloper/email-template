@@ -1,29 +1,48 @@
-<tr >
-  <td class="w-[600px] bg-dp-grayscale-800 text-white text-sm py-5 px-8 xs:px-3">
-    <div align="center" >
+<tr>
+  <td
+    class="w-[600px] bg-dp-grayscale-800 dark:bg-dp-grayscale-800 text-white dark:text-white text-sm py-5 px-8 xs:px-3"
+  >
+    <div align="center">
+      <a
+        href="https://www.linkedin.com/company/dreamplan/"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Linkedin"
+      >
         <img
           class="xs:w-8 w-10"
-          src="images/linkedin.png"
+          src="https://www.dreamplan.io/images/linkedin.png"
           alt="linkedin icon"
         />
+      </a>
+      <a 
+        href="https://www.facebook.com/DreamPlan.io"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Facebook"
+      >
         <img
           class="xs:w-8 w-10"
-          src="images/facebook.png"
+          src="https://www.dreamplan.io/images/facebook.png"
           alt="facebook icon"
         />
+      </a>
+    </div>
+    <div class="text-center py-5">
+      <span>{{footer.text}}</span>
+      <a class="text-blue-500 no-underline" href="">Unsubscribe</a>
     </div>
     <div class="text-center">
-        <span>{{footer.text}}</span>
-        <a class="text-blue-500 no-underline" href="">Unsubscribe</a>
-    </div>
-    <div class="text-center">
+      <p class="text-white no-underline">
+        <span>&copy;{{year}}</span>
         <span>{{company.name}}</span>
-        <a
-          class="text-blue-500 no-underline"
-          href="{{company.address}}"
-          target="_blank"
-          >Applebys Pl. 7, 1411 København, Denmark</a
-        >
+      </p>
+      <a
+        class="text-blue-500 no-underline"
+        href="{{company.address}}"
+        target="_blank"
+        >Applebys Pl. 7, 1411 København, Denmark</a
+      >
     </div>
   </td>
 </tr>
